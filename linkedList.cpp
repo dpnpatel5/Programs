@@ -117,5 +117,24 @@ struct node* reverseRecursion(struct node* head)
     }
     reverseRecursion(temp->link);
     struct node* temp1=temp->link;
-    //Need to understand
 }
+/*
+int main()
+{
+    struct node* head= NULL;
+    head=insertatBegin(head,10);head=insertatBegin(head,30);
+    head=insertatBegin(head,40);head=insertatBegin(head,20);
+    head=insertatEnd(head,60);head=insertatEnd(head,5);
+    head=insertatPos(head,14,3);
+    print(head);
+    cout<<"\n";
+    head=deleteAtPos(head,3);
+    print(head);
+    cout<<"\n";
+    head=reverse(head);
+    printRecursion(head);
+    cout<<"\n";
+    reverseprintRecursion(head);
+    return 0;
+}
+*/
